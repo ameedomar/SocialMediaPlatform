@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+
+  height: 100vh;
+  width: 100%;
+}
+.left .center .right {
+  display: flex;
+  flex-direction: row;
+  border: 21px solid dodgerblue;
+}
+.left {
+  width: 20%;
+  height: 100vh;
+  background-color: #dbe7ff;
+  order: 1;
+}
+.menu-items {
+  width: 40px;
+  display: flex;
+}
+.logo-name {
+  display: flex;
+  padding: 20px 22px;
+  justify-content: center;
+  justify-items: center;
+}
+.left-logo {
+  width: 50px;
+  display: flex;
+}
+.left-name {
+  font-family: "Tw Cen MT Condensed Extra Bold";
+  font-size: 21px;
+  color: dodgerblue;
+}
+.left-icons-logo1 {
+  width: 30px;
+  display: flex;
+  padding: 18px 18px;
+}
+/************************************************/
+.center {
+  width: 60%;
+  height: 100vh;
+  background-color: #dbe7ff;
+  order: 2;
+  border: 1px solid dodgerblue;
+}
+/***********************************************/
+.right {
+  width: 20%;
+  height: 100vh;
+  background-color: #dbe7ff;
+  order: 3;
+}

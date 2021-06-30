@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Foothill Social Media Platform</title>
+    <link rel="stylesheet" href="Social-Platform.css" />
+    <link rel="stylesheet" href="main.css" />
+    <script src="./post.js" defer></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="left">
+        <div class="menu">
+          <div class="logo-name">
+            <img class="left-logo" src="./icons/social-media.png" />
+            <p class="left-name">&nbsp Foothill Platform</p>
+          </div>
+          <div class="menu-items">
+            <img class="left-icons-logo1" src="./icons/home.png" />
+            <p class="left-p">&nbsp &nbsp Home</p>
+          </div>
+
+          <div class="menu-items">
+            <img class="left-icons-logo1" src="./icons/search.png" />
+            <p class="left-p">&nbsp &nbsp Explore</p>
+          </div>
+
+          <div class="menu-items">
+            <img class="left-icons-logo1" src="./icons/bell.png" />
+            <p class="left-p">&nbsp &nbsp Notifications</p>
+          </div>
+
+          <div class="menu-items">
+            <img class="left-icons-logo1" src="./icons/comments.png" />
+            <p class="left-p">&nbsp &nbspMessages</p>
+          </div>
+
+          <div class="menu-items">
+            <img class="left-icons-logo1" src="./icons/bookmark.png" />
+            <p class="left-p">&nbsp &nbspBookmarks</p>
+          </div>
+
+          <div class="menu-items">
+            <img class="left-icons-logo1" src="./icons/completed-task.png" />
+            <p class="left-p">&nbsp &nbspList</p>
+          </div>
+
+          <div class="menu-items">
+            <img class="left-icons-logo1" src="./icons/more.png" />
+            <p class="left-p">&nbsp &nbspMore</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="center">
+        <div class="posts-wrapper">
+          <div class="add-post-wrapper">
+            <div class="add-post-header">
+              <h2 class="title">Home</h2>
+              <img class="fav-icon" src="./icons/social-media.png" />
+            </div>
+
+            <div class="add-post-body">
+              <div class="add-post-avatar-wrapper">
+                <div class="img-container">
+                  <img src="./images/profile.jpg" />
+                </div>
+              </div>
+
+              <div class="add-post-text-wrapper">
+                <form id="postForm">
+                  <textarea
+                    placeholder="Whats Happening . . . ?"
+                    name="post"
+                  ></textarea>
+                  <div class="icons"></div>
+                  <button class="post-button" type="submit">Post</button>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <div class="posts-list-wrapper" id="posts"></div>
+        </div>
+      </div>
+
+      <div class="right"></div>
+    </div>
+  </body>
+</html>

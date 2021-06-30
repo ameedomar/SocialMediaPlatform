@@ -1,0 +1,111 @@
+.posts-wrapper {
+  width: 99.8%;
+  border: solid 1px dodgerblue;
+  height: 190px;
+  /*display: flex;*/
+  /*justify-content: right;*/
+}
+
+.add-post-wrapper {
+}
+
+.add-post-header {
+  border-bottom: solid 1px dodgerblue;
+  height: 60px;
+  padding: 10px;
+}
+
+.add-post-header .title {
+  float: left;
+  color: dodgerblue;
+}
+
+.add-post-header .fav-icon {
+  float: right;
+  width: 30px;
+  margin-top: 16px;
+}
+
+.add-post-body {
+  max-height: 100px;
+}
+
+.add-post-avatar-wrapper {
+  height: 100%;
+  width: 80px;
+  float: left;
+  padding: 10px;
+}
+
+.add-post-avatar-wrapper .img-container {
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.add-post-avatar-wrapper img {
+  width: 100%;
+}
+
+.add-post-text-wrapper {
+  height: 100%;
+  float: left;
+  padding: 10px;
+  width: calc(100% - 120px);
+}
+
+textarea {
+  resize: none;
+  border: none;
+  width: 100%;
+  outline: none;
+  color: dodgerblue;
+  background-color: #dbe7ff;
+}
+
+.icons {
+  float: left;
+}
+
+.post-button {
+  padding: 18px 36px;
+  display: inline-block;
+  border-radius: 3em;
+  box-sizing: border-box;
+  float: right;
+  background-color: #dbe7ff;
+  color: black;
+  border: 2px solid dodgerblue;
+}
+.post-button:hover {
+  background-color: dodgerblue;
+  color: #dbe7ff;
+}
+
+/* Here code styling for left side */
+
+.left-side {
+  width: 350px;
+  border: solid 1px dodgerblue;
+  height: 100%;
+  float: left;
+}
+.left-content {
+}
+.left-social-name {
+  font-size: 26px;
+  color: dodgerblue;
+  font-family: "Times New Roman";
+}
+.left-icons-logo {
+  width: 95px;
+}
+.left-icons-logo1 {
+  width: 50px;
+  float: left;
+}
+.left-p {
+  font-size: 18px;
+  color: dodgerblue;
+}
